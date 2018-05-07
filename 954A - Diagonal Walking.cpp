@@ -15,16 +15,10 @@ int main(void)
 	string s;
 	cin >> n >> s;
 	
-	bool used = false;
 	int cnt = 0;
 	for (int i = 0; i < n; ++i)
 	{
-		if (used)
-		{
-			used = false;
-			continue;
-		}
-		else if ((s[i] == 'R' and s[i + 1] == 'U') or (s[i] == 'U' and s[i + 1] == 'R'))
+		if ((s[i] == 'R' and s[i + 1] == 'U') or (s[i] == 'U' and s[i + 1] == 'R'))
 			++i;
 		
 		++cnt;
