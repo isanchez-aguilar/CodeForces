@@ -1,3 +1,7 @@
+/*
+*	User: Isanchez_Aguilar
+*	Problem: CodeForces 271D - Good Substrings
+*/
 #include <bits/stdc++.h>
 
 using namespace std;
